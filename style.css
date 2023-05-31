@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid red;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.caja {
+    display: inline-block;
+    font-size: 30px;
+    height: 200px;
+    width: 250px;
+
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+#none {
+    border: none;
+}
+
+#dotted {
+    border: 10px dotted black;
+}
+
+#dashed {
+    border: 10px dashed black;
+}
+
+#solid {
+    border: 10px solid black;
+}
+
+#double {
+    border: 10px double black;
+}
+
+#groove {
+    border: 10px groove black;
+}
+
+#ridge {
+    border: 10px ridge black;
+}
+
+#inset {
+    border: 10px inset black;
+}
+
+#outset {
+    border: 10px outset black;
+}
